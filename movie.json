@@ -1,0 +1,40 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "title": "Movie Title",
+            "year": 2023,
+            "genre": ["Action", "Drama"],
+            "rating": 8.5,
+            "description": "Brief description of the movie",
+            "director": "Director Name",
+            "cast": ["Actor 1", "Actor 2"],
+            "posterUrl": "https://example.com/poster.jpg"
+        }
+    ]
+}
+,
+    {
+        "id": 2,
+        "title": "Another Movie",
+        "year": 2023,
+        "genre": ["Comedy", "Romance"],
+        "rating": 7.2,
+        "description": "Another movie description",
+        "director": "Another Director",
+        "cast": ["Actor 3", "Actor 4"],
+        "posterUrl": "https://example.com/poster2.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Third Movie",
+        "year": 2022,
+        "genre": ["Thriller", "Mystery"],
+        "rating": 8.9,
+        "description": "Thriller movie description",
+        "director": "Third Director",
+        "cast": ["Actor 5", "Actor 6"],
+        "posterUrl": "https://example.com/poster3.jpg"
+    }
+    ]
+}

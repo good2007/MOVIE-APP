@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Detail — GOODRICK MOVIE ZONE</title>
+  <meta name="description" content="Watch movie details on KMovies." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="detail-page">
+
+  <!-- ======= NAVIGATION ======= -->
+  <nav class="navbar scrolled" id="navbar">
+    <a href="index.html" class="nav-logo">GOODRICK MOVIE ZONE</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Drama</a></li>
+      <li><a href="#">Movie</a></li>
+      <li><a href="#">Trending</a></li>
+      <li><a href="#">Help</a></li>
+    </ul>
+    <button class="nav-menu-btn" aria-label="Menu">☰</button>
+  </nav>
+
+  <!-- ======= DETAIL HERO (backdrop image) ======= -->
+  <div class="detail-hero" id="detailHero">
+    <div class="detail-hero-backdrop" id="detailBackdrop"></div>
+    <div class="detail-hero-overlay"></div>
+  </div>
+
+  <!-- ======= DETAIL CONTENT ======= -->
+  <div class="detail-content">
+    <div class="detail-layout">
+
+      <!-- Poster Column -->
+      <div class="detail-poster">
+        <img id="detailPoster" src="" alt="Movie Poster" />
+      </div>
+
+      <!-- Info Column -->
+      <div class="detail-info">
+        <button class="detail-back" onclick="window.history.back()">
+          ← Back to Browse
+        </button>
+
+        <div class="detail-genres" id="detailGenres"></div>
+
+        <h1 class="detail-title" id="detailTitle">Loading...</h1>
+
+        <div class="detail-meta-row">
+          <span class="year" id="detailYear"></span>
+          <div class="detail-rating-badge">
+            <span>★</span>
+            <span id="detailRating"></span>
+          </div>
+          <span class="detail-type-tag" id="detailType"></span>
+          <span class="detail-runtime" id="detailRuntime"></span>
+        </div>
+
+        <p class="detail-description" id="detailDescription"></p>
+
+        <p class="detail-episodes" id="detailEpisodes"></p>
+
+        <div class="detail-actions">
+          <button class="btn-watch">▶ Watch Now</button>
+          <button class="btn-add">+ Add to List</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= FOOTER ======= -->
+  <footer>
+    <div class="footer-bottom">
+      <span class="footer-logo">KMovies</span>
+      <span>Powered by TMDB · &copy;2025 KMovies. All Rights Reserved.</span>
+    </div>
+  </footer>
+
+  <script src="movie.js"></script>
+</body>
+</html>
